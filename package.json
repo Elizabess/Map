@@ -1,0 +1,21 @@
+{
+  "name": "map",
+  "version": "1.0.0",
+  "main": "ErrorRepository.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "babel-jest": "^29.7.0"
+  }
+}
